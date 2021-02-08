@@ -1,0 +1,9 @@
+[submodule "3rdparty/GSL-master"]
+	path = 3rdparty/GSL-master
+	url = https://github.com/microsoft/GSL.git
+[submodule "3rdparty/cxxopts"]
+	path = 3rdparty/cxxopts
+	url = https://github.com/jarro2783/cxxopts.git
+[submodule "3rdparty/kremlin"]
+	path = 3rdparty/kremlin
+	url = https://github.com/FStarLang/kremlin.git
