@@ -1,0 +1,35 @@
+{
+  "Version": 1,
+  "Registrations": [
+    {
+      "component": {
+        "type": "git",
+        "git": {
+          "commitHash": "ec6cd75d57f68b6566e1d406de20e59636a881e7",
+          "repositoryUrl": "https://github.com/microsoft/GSL.git"
+        },
+        "comments": "git submodule at 3rdparty/GSL-master"
+      }
+    },
+    {
+      "component": {
+        "type": "git",
+        "git": {
+          "commitHash": "66b52e6cc9f3f2429dcb01ddb90b6c2f156ac67f",
+          "repositoryUrl": "https://github.com/jarro2783/cxxopts.git"
+        },
+        "comments": "git submodule at 3rdparty/cxxopts"
+      }
+    },
+    {
+      "component": {
+        "type": "git",
+        "git": {
+          "commitHash": "c113d20b84a55dd1ba60c86c1502f2c49459b645",
+          "repositoryUrl": "https://github.com/FStarLang/kremlin.git"
+        },
+        "comments": "git submodule at 3rdparty/kremlin"
+      }
+    }
+  ]
+}
