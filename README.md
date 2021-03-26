@@ -1,4 +1,4 @@
-# Verified Boot Code for DICE*
+# Verified DICE based Boot Firmware for STM32H7
 
 This repository contains a Verified Boot implementation for the STM32H7 devices (specifically STM32H753ZI, STM32H743ZI) for the [paper](). 
 The implementation contains DICE* code generated from the [VerifiedHardware](https://github.com/verified-hrot/dice-star) repository and implements the Hardware Abstraction Interface.
