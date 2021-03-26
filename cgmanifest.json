@@ -1,0 +1,57 @@
+{
+	"registrations": [
+		{
+			"component": {
+				"type": "git",
+				"git": {
+					"name": "Microsoft/GSL",
+					"repositoryUrl": "https://github.com/Microsoft/GSL",
+					"commitHash": "ec6cd75d57f68b6566e1d406de20e59636a881e7"
+				}
+			},
+			"license": "MIT",
+			"version": "ec6cd75d57f68b6566e1d406de20e59636a881e7",
+			"description": "The Guidelines Support Library (GSL) contains functions and types that are suggested for use by the C++ Core Guidelines maintained by the Standard C++ Foundation."
+		},
+		{
+			"component": {
+				"type": "git",
+				"git": {
+					"name": "jarro2783/cxxopts",
+					"repositoryUrl": "https://github.com/jarro2783/cxxopts",
+					"commitHash": "66b52e6cc9f3f2429dcb01ddb90b6c2f156ac67f"
+				}
+			},
+			"license": "MIT",
+			"version": "66b52e6cc9f3f2429dcb01ddb90b6c2f156ac67f",
+			"description": "Lightweight C++ command line option parser."
+		},
+    {
+			"component": {
+				"type": "git",
+				"git": {
+					"name": "STMicroelectronics/STM32CubeH7",
+					"repositoryUrl": "https://github.com/STMicroelectronics/STM32CubeH7",
+					"commitHash": "79196b09acfb720589f58e93ccf956401b18a191"
+				}
+			},
+			"license": "MIT",
+			"version": "79196b09acfb720589f58e93ccf956401b18a191",
+			"description": "Drivers provided by STMicroelectronics - STM32CubeH7 MCU Firmware Package"
+		},
+        {
+			"component": {
+				"type": "git",
+				"git": {
+					"name": "FStarLang/kremlin",
+					"repositoryUrl": "https://github.com/FStarLang/kremlin",
+					"commitHash": "c113d20b84a55dd1ba60c86c1502f2c49459b645"
+				}
+			},
+			"license": "Apache License 2.0",
+			"version": "c113d20b84a55dd1ba60c86c1502f2c49459b645",
+			"description": "KreMLin is a tool that extracts an F* program to readable C code."
+		},
+	],
+	"version": 1
+}
