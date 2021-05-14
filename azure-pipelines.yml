@@ -10,9 +10,6 @@ pool:
   vmImage: 'ubuntu-latest'
 
 steps:
-- task: CredScan@2
-  inputs:
-    toolMajorVersion: 'V2'
 - task: Semmle@1
   inputs:
     sourceCodeDirectory: '$(Build.SourcesDirectory)'
@@ -31,3 +28,6 @@ steps:
     InputType: 'Basic'
     Function: 'analyze'
     AnalyzeTarget: '$(Build.ArtifactStagingDirectory)\*.dll;$(Build.ArtifactStagingDirectory)\*.exe'
+- task: CredScan@2
+  inputs:
+    toolMajorVersion: 'V2'
