@@ -9,6 +9,6 @@ trigger:
 pool:
   vmImage: 'ubuntu-latest'
 
-steps:
-- script: . build.sh
-  displayName: 'Run a multi-line script'
+- task: CredScan@2
+  inputs:
+    toolMajorVersion: 'V2'
