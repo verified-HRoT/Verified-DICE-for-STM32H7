@@ -28,6 +28,8 @@ steps:
     timeout: '1800'
     ram: '16384'
     addProjectDirToScanningExclusionList: true
+    buildCommands: 'build.sh'
+    cleanupBuildCommands: 'cls'
 
 - task: ComponentGovernanceComponentDetection@0
   inputs:
