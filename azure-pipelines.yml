@@ -22,7 +22,7 @@ steps:
     SYSTEM_ACCESSTOKEN: $(PATToken)
   inputs:
     sourceCodeDirectory: '$(Build.SourcesDirectory)'
-    language: 'tsandjs'
+    language: 'cpp'
     includeNodeModules: true
     querySuite: 'Recommended'
     timeout: '1800'
