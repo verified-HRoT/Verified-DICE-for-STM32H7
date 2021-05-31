@@ -17,20 +17,6 @@ steps:
   inputs:
     toolMajorVersion: 'V2'
 
-- task: Semmle@0
-  env: 
-    SYSTEM_ACCESSTOKEN: $(PATToken)
-  inputs:
-    sourceCodeDirectory: '$(Build.SourcesDirectory)'
-    language: 'cpp'
-    includeNodeModules: true
-    querySuite: 'Recommended'
-    timeout: '1800'
-    ram: '16384'
-    addProjectDirToScanningExclusionList: true
-    buildCommands: 'build.sh'
-    cleanupBuildCommands: 'cls'
-
 - task: ComponentGovernanceComponentDetection@0
   inputs:
     scanType: 'Register'
